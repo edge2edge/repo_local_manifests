@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="edge2edge" fetch="https://github.com/edge2edge"/>
-  <project path="device/edge2edge/hikey960" name="device_edge2edge_hikey960" revision="09f5d3bc89f358f556817f5b0c2bfcc672e76358" remote="edge2edge"/>
+  <project path="device/edge2edge/hikey960" name="device_edge2edge_hikey960" revision="a59d0863786308d3b29810491208a99646cc784d" remote="edge2edge"/>
   <project path="vendor/edge2edge/hikey960" name="vendor_edge2edge_hikey960" revision="f5c1480cfedb0e9d268be41f099cd35cdf2183b1" remote="edge2edge"/>
 </manifest>
