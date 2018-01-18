@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="arpi" fetch="https://github.com/android-rpi"/>
-
-  <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="nougat" remote="arpi"/>
-  <remove-project name="platform/external/drm_gralloc"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="nougat" remote="arpi"/>
-
-  <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="arpi"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="arpi"/>
-
-  <remove-project name="device/google/dragon-kernel" />
-  <remove-project name="device/google/marlin-kernel" />
-  <remove-project name="device/htc/flounder-kernel" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead-kernel" />
-  <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/moto/shamu-kernel" />
+  <remote name="edge2edge" fetch="https://github.com/edge2edge"/>
+  <project path="device/edge2edge/hikey960" name="device_edge2edge_hikey960" revision="09f5d3bc89f358f556817f5b0c2bfcc672e76358" remote="edge2edge"/>
+  <project path="vendor/edge2edge/hikey960" name="vendor_edge2edge_hikey960" revision="f5c1480cfedb0e9d268be41f099cd35cdf2183b1" remote="edge2edge"/>
 </manifest>
