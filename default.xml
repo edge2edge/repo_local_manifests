@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="edge2edge" fetch="https://github.com/edge2edge"/>
-  <project path="device/edge2edge/hikey960" name="device_edge2edge_hikey960" revision="a59d0863786308d3b29810491208a99646cc784d" remote="edge2edge"/>
-  <project path="vendor/edge2edge/hikey960" name="vendor_edge2edge_hikey960" revision="f5c1480cfedb0e9d268be41f099cd35cdf2183b1" remote="edge2edge"/>
+  <project path="device/e2e/exp960" name="device_e2e_exp960" revision="4297ac841e23dcd7a18e44b26a1edc424bbb7694" remote="edge2edge"/>
+  <project path="device/e2e/kernel_prebuilts" name="kernel_prebuilts" revision="ccae128bbfa84279962f68fd545c7c9cad3c04eb" remote="edge2edge"/>
+  <project path="vendor/e2e" name="vendor_e2e" revision="369e7661452c7dcfc8816c00a471d741875cce79" remote="edge2edge"/>
+
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/generic/mips64" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/lge/bullhead" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey" />
 </manifest>
