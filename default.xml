@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="edge2edge" fetch="https://github.com/edge2edge"/>
-  <project path="device/e2e/exp960" name="device_e2e_exp960" revision="4297ac841e23dcd7a18e44b26a1edc424bbb7694" remote="edge2edge"/>
-  <project path="device/e2e/kernel_prebuilts" name="kernel_prebuilts" revision="ccae128bbfa84279962f68fd545c7c9cad3c04eb" remote="edge2edge"/>
-  <project path="vendor/e2e" name="vendor_e2e" revision="369e7661452c7dcfc8816c00a471d741875cce79" remote="edge2edge"/>
+  <project path="device/e2e/exp960" name="device_e2e_exp960" revision="master" remote="edge2edge"/>
+  <project path="device/e2e/kernel_prebuilts" name="kernel_prebuilts" revision="master" remote="edge2edge"/>
+  <project path="vendor/e2e" name="vendor_e2e" revision="master" remote="edge2edge"/>
 
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/asus/fugu" />
